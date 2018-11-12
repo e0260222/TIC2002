@@ -14,8 +14,12 @@ public class Ui {
         in = new Scanner(System.in);
     }
 
+    /**
+     *  Get the input stream from the user.
+     *  @return Input stream from the user.
+     */
     public String readUserCommand() {
-        System.out.print("Your task? ");
+        System.out.print("Please enter command: ");
         return in.nextLine().trim();
     }
 
